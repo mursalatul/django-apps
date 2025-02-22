@@ -1,0 +1,2 @@
+# Avoid backing up `__pycache__` it contains system-specific `.pyc` files that Python regenerates automatically.
+__pycache__/
