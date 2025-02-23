@@ -1,7 +1,8 @@
 from django.urls import path
 
-from main import views
+from main import views as mainviews
+from polls import views as pollviews
 
 urlpatterns = [
-    path('',views.main,name='main'),
+    path('',mainviews.main,name='main'),
 ]
