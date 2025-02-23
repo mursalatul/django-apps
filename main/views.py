@@ -10,3 +10,6 @@ def main(request):
     }
     main_page = loader.get_template('main.html')
     return HttpResponse(main_page.render(app_data, request))
+
+def index(request):
+    return HttpResponse("okk")
